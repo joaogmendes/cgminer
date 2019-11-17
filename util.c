@@ -45,6 +45,7 @@
 #include "util.h"
 
 #define DEFAULT_SOCKWAIT 60
+#define TIMER_ABSTIME 1
 
 bool successful_connect = false;
 static void keep_sockalive(SOCKETTYPE fd)
